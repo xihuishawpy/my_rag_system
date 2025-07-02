@@ -1,0 +1,50 @@
+# 商城RAG系统环境配置文件模板
+# 复制此文件内容创建 .env 文件并填入您的配置
+
+# ===========================================
+# API密钥配置 (必需)
+# ===========================================
+
+# 通义千问API密钥 (必需配置)
+# 获取地址: https://bailian.console.aliyun.com/
+DASHSCOPE_API_KEY=sk-your-dashscope-api-key-here
+
+# ===========================================
+# 可选配置
+# ===========================================
+
+# Qwen API基础URL (通常不需要修改)
+# QWEN_BASE_URL=https://dashscope.aliyuncs.com/compatible-mode/v1
+
+# 日志级别 (DEBUG, INFO, WARNING, ERROR)
+# LOG_LEVEL=INFO
+
+# ===========================================
+# 配置说明
+# ===========================================
+
+# 1. DASHSCOPE_API_KEY 是必需的配置项
+#    - 用于访问通义千问大模型API
+#    - 用于文本嵌入和重排序服务
+#    - 请确保您的账户有足够余额
+
+# 2. 获取API密钥的步骤:
+#    a) 访问 https://bailian.console.aliyun.com/
+#    b) 注册/登录阿里云账号
+#    c) 开通百炼服务
+#    d) 创建API密钥
+#    e) 复制密钥到上面的配置中
+
+# 3. 安全提醒:
+#    - 不要将包含真实API密钥的.env文件提交到代码仓库
+#    - 定期更换API密钥以确保安全
+#    - 监控API使用量和费用
+
+# 4. 使用方法:
+#    - 复制此文件内容创建 .env 文件
+#    - 填入您的真实API密钥
+#    - 运行 ./start.sh (Linux/Mac) 或 start.bat (Windows)
+
+# 5. 示例:
+#    创建.env文件:
+#    DASHSCOPE_API_KEY=sk-1234567890abcdef... 

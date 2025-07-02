@@ -1,6 +1,5 @@
 # 基础数据处理
 pandas>=1.5.0
-# openpyxl>=3.0.0  # Excel文件读取支持
 
 # RAG框架
 llamaindex>=0.9.0
@@ -9,9 +8,6 @@ langchain>=0.1.0
 # 向量存储
 chromadb>=0.4.0
 faiss-cpu>=1.7.0
-
-# 嵌入和重排序模型
-# sentence-transformers>=2.2.0
 
 # API客户端
 openai>=1.0.0

@@ -47,6 +47,10 @@ tmp/
 *.tmp
 *.temp
 
+# 大型嵌入文件（应该重新生成）
+all_embeddings.json
+test_embeddings.json
+
 # IDE和编辑器文件
 .vscode/
 .idea/

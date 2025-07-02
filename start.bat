@@ -2,11 +2,11 @@
 chcp 65001 >nul
 setlocal EnableDelayedExpansion
 
-:: 商城RAG系统启动脚本 (Windows版本)
+:: RAG系统启动脚本 (Windows版本)
 :: 自动检查环境并启动Web界面
 
 echo ==========================================
-echo       商城RAG知识库问答系统启动
+echo       RAG知识库问答系统启动
 echo ==========================================
 echo.
 

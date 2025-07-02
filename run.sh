@@ -1,5 +1,5 @@
 # 进入项目目录
-cd /Volumes/mac/商城/src
+cd /Volumes/mac/my_rag_system/src
 
 # 第1步：数据预处理
 echo "=== 第1步：数据预处理 ==="

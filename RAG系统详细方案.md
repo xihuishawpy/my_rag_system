@@ -16,7 +16,7 @@ data_processing.py → embedding.py → vector_store.py → retrieval.py → rer
 ### 核心模块架构
 
 ```
-商城问答/
+智能问答/
 ├── src/
 │   ├── config.py              # 配置管理
 │   ├── data_processing.py     # 数据预处理模块 ✅
